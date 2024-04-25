@@ -1,33 +1,41 @@
 package POO.tp2;
 
+import java.util.Scanner;
+
 public class ej6 {
     private Integer numero;
 
+    // Constructor de la clase Enteros
     public ej6(Integer numero) {
-        super();
         this.numero = numero;
     }
 
+    // Método para obtener el número
     public Integer getNumero() {
         return numero;
     }
 
+    // Método para establecer el número
     public void setNumero(Integer numero) {
         this.numero = numero;
     }
 
+    // Calcula el cuadrado del número
     public Long cuadrado() {
-        return numero.longValue() * numero.longValue();
+        return (long) numero * numero;
     }
 
+    // Verifica si el número es par
     public boolean esPar() {
         return numero % 2 == 0;
     }
 
+    // Verifica si el número es impar
     public boolean esImpar() {
         return !esPar();
     }
 
+    // Calcula el factorial del número
     public Long factorial() {
         if (numero < 0) {
             throw new IllegalArgumentException("El factorial no está definido para números negativos.");
@@ -39,6 +47,7 @@ public class ej6 {
         return factorial;
     }
 
+    // Verifica si el número es primo
     public boolean esPrimo() {
         if (numero <= 1) {
             return false;
