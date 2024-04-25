@@ -1,6 +1,5 @@
+package POO.tp2;
 import java.util.Scanner;
-
-import POO.tp2.ej6;
 
 public class pruebaarray {
     public static void main(String[] args) {

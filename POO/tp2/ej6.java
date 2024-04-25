@@ -1,7 +1,5 @@
 package POO.tp2;
 
-import java.util.Scanner;
-
 public class ej6 {
     private Integer numero;
 
