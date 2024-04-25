@@ -2,7 +2,7 @@ package POO.tp2;
 
 import java.util.Scanner;
 
-public class asd {
+public class ej2 {
             public static void main(String[] args) {
             Scanner scanner = new Scanner (System.in);
             char continuar = 's';
