@@ -7,11 +7,9 @@ public class Provincia {
     }
 
     private String nombre;
-    private String pais;
 
-    public Provincia(String nombre, String pais){
+    public Provincia(String nombre){
         this.nombre = nombre;
-        this.pais = pais;
     }
 
     public String getNombre(){
@@ -20,14 +18,6 @@ public class Provincia {
 
     public void setNombre (String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getPais() {
-        return pais;
-    }
-
-    public void setPais(String pais) {
-        this.pais = pais;
     }
     
 }
