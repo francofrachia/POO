@@ -2,10 +2,6 @@ package POO.tp4;
 
 public class Provincia {
 
-    public static void main(String[] args) {
-        
-    }
-
     private String nombre;
 
     public Provincia(String nombre){
@@ -19,5 +15,9 @@ public class Provincia {
     public void setNombre (String nombre) {
         this.nombre = nombre;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Provincia: " + nombre;
+    }
 }
