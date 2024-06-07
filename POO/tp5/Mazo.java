@@ -1,4 +1,4 @@
-package POO_tp5;
+package POO.tp5;
 
 import java.util.ArrayList;
 import java.util.Collections;
